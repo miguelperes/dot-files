@@ -1,0 +1,6 @@
+alias gs "git status"
+alias c "clear"
+alias lock "/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend" 
+alias copypwd "pwd|pbcopy"
+alias cdinsights "cd /Users/vtexrj/Documents/summer2017"
+alias cdmobile "cd /Users/vtexrj/Documents/mobile.vtex-insights"
