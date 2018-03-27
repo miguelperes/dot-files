@@ -1,7 +1,7 @@
 alias gs='git status'
 alias ~="cd ~"                              # ~:            Go Home
 alias c='clear'
-alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend' 
+alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend' # Mac
 
 alias copypath='pwd|pbcopy'
 alias cdsummer='cd /Users/vtexrj/Documents/summer2017'
