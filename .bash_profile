@@ -4,7 +4,6 @@ alias c='clear'
 alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend' # Mac
 
 alias copypath='pwd|pbcopy'
-alias cdsummer='cd /Users/vtexrj/Documents/summer2017'
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
