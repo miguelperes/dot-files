@@ -62,6 +62,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   git-open
+  zsh-autosuggestions # github.com/zsh-users/zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
