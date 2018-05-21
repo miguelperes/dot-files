@@ -1,6 +1,15 @@
 {
+    "workbench.colorCustomizations": {
+        "[Darcula theme for Elixir]": {
+        "editor.selectionHighlightBorder": "#ffffff77",
+        "editor.selectionHighlightBackground": "#1a414d"
+        }
+    },
+    
     "window.zoomLevel": 1,
+    
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "editor.rulers": [100]
+    "editor.rulers": [100],
+    "editor.multiCursorModifier": "ctrlCmd",
 }
