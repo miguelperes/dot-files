@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias gs="git status"
+alias git-rm-merged="git branch --merged | grep -v 'master' | cut -c 3- | xargs git branch -d"
 
 . $HOME/.asdf/asdf.sh
 
