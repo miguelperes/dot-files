@@ -13,7 +13,6 @@
     "editor.rulers": [100],
     "editor.multiCursorModifier": "ctrlCmd",
     
-    # Python
     "python.formatting.provider": "yapf",
     "python.formatting.yapfPath": "~/.asdf/shims/yapf",
     "python.linting.flake8Enabled": true,
