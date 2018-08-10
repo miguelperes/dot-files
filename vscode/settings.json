@@ -12,4 +12,17 @@
     "editor.insertSpaces": true,
     "editor.rulers": [100],
     "editor.multiCursorModifier": "ctrlCmd",
+    
+    # Python
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfPath": "~/.asdf/shims/yapf",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "~/.asdf/shims/flake8",
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "~/.asdf/shims/mypy",
+    "python.linting.pep8Path": "~/.asdf/shims/pep8",
+    "python.linting.pylintEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": true,
+    "python.unitTest.unittestEnabled": true,
 }
