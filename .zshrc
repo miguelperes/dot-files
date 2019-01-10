@@ -10,9 +10,16 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# Alias
+# --- ALIASES
+
+# Shortcuts
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias zshconfig="code ~/.zshrc"
+alias gitconfig="code ~/.gitconfig"
+alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
+
+# Git
 alias gs="git status"
 alias git-rm-merged="git branch --merged | grep -v 'master' | cut -c 3- | xargs git branch -d"
 
