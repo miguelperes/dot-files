@@ -41,6 +41,13 @@ function pair_with_john {
    pair_with_ "John Doe" "john.doe@gmail.com"
 }
 
+# Quickly toggle Delta diff to show side-by-side view
+function delta_sbs {
+        TOGGLE=$1
+        git config --global delta.side-by-side $TOGGLE
+        echo "Delta: side-by-side diff set to $TOGGLE"
+}
+
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
