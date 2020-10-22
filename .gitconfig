@@ -9,3 +9,36 @@
     
     # Rename local and remote tags
     rtag = "!f(){ git tag \"$2\" \"$1\" && git dtag \"$1\" && git push --tags; }; f"
+    
+
+# Delta config
+[core]
+	pager = delta
+
+[delta]
+    plus-color = "#012800"
+    minus-color = "#340001"
+    syntax-theme = Monokai Extended
+	line-numbers = false
+	side-by-side = false
+	# side-by-side = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[color]
+	ui = true
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
