@@ -48,6 +48,12 @@ function delta_sbs {
         echo "Delta: side-by-side diff set to $TOGGLE"
 }
 
+# Shortcut to view the diff between a commit and its parent
+function diff_parent {
+    COMMIT_HASH=$1
+    git diff $COMMIT_HASH\^ $COMMIT_HASH
+}
+
 . $HOME/.asdf/asdf.sh
 
 . $HOME/.asdf/completions/asdf.bash
