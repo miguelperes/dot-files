@@ -44,7 +44,7 @@ function pair_with_john {
 # Quickly toggle Delta diff to show side-by-side view
 function delta_sbs {
         TOGGLE=$1
-        git config --global delta.side-by-side $TOGGLE
+        git config --global delta.side-by-side $TOGGLE --replace-all
         echo "Delta: side-by-side diff set to $TOGGLE"
 }
 
