@@ -5,6 +5,7 @@
   - zsh-autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
   - fzf: https://github.com/junegunn/fzf#using-git
   - git-open: https://github.com/paulirish/git-open
+  - zsh-z: https://github.com/agkozak/zsh-z
 
 #### System Preferences
 - Trackpack
